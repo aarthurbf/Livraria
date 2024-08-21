@@ -1,0 +1,53 @@
+.header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+header .img{
+    padding: 1rem;
+}
+
+.lista-menu{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 40vw;
+}
+
+.menu-botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.menu-botao{
+    display: none;
+}
+
+.lista-menu-item .lista-menu-titulo{
+    padding: 1em;
+}
+
+.lista-menu-titulo{
+    color: orange;
+    font-weight: 700;
+}
+
+.lista-menu-link{
+    text-transform: uppercase;
+}
