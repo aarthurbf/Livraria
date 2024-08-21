@@ -25,11 +25,10 @@ header .img{
 }
 
 .lista-menu{
-    background-color: var(--branco);
     display: none;
     position: absolute;
     top: 100%;
-    width: 40vw;
+    width: 60vw;
 }
 
 .menu-botao:checked ~ .lista-menu{
@@ -38,6 +37,7 @@ header .img{
 
 .lista-menu-item, .lista-menu-titulo{
     padding: 1em;
+    background-color: var(--branco);
 }
 
 .menu-botao{
